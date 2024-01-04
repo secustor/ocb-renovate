@@ -4,6 +4,7 @@
     "config:recommended"
   ],
 
+  "bumpVersion": "minor",
   "ocb": {
     "fileMatch": ["builder.ya?ml$"]
   }
