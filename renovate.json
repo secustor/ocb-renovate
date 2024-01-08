@@ -7,5 +7,14 @@
   "bumpVersion": "minor",
   "ocb": {
     "fileMatch": ["builder.ya?ml$"]
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackagePrefixes": [
+        "github.com/open-telemetry/opentelemetry-collector-contrib",
+        "go.opentelemetry.io/collector"
+      ],
+      "groupName": "upstream dependencies"
+    }
+  ]
 }
