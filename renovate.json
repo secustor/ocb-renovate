@@ -10,9 +10,9 @@
   },
   "packageRules": [
     {
-      "matchPackagePrefixes": [
-        "github.com/open-telemetry/opentelemetry-collector-contrib",
-        "go.opentelemetry.io/collector"
+      "matchSourceUrls": [
+        "https://github.com/open-telemetry/opentelemetry-collector",
+        "https://github.com/open-telemetry/opentelemetry-collector-contrib"
       ],
       "groupName": "upstream dependencies"
     }
